@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import './App.css';
 import Hero from './components/Hero';
+import Analytics from './components/Analytics';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <>
       <Navbar/>
       <Hero/>
+      <Analytics/>
         
     </>
   )
