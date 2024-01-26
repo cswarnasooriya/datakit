@@ -32,12 +32,12 @@ const Navbar = () => {
         </ul>
 
         <div onClick={handleNav} className="block md:hidden">
-          {!nav ? <IoIosCloseCircleOutline size={25}/> : <MdOutlineMenu size={22}/>}
+          {nav ? <IoIosCloseCircleOutline size={25}/> : <MdOutlineMenu size={22}/>}
           
         </div>
 
 
-        <div className={!nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'fixed left-[-100%]'}>
+        <div className={nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'fixed left-[-100%]'}>
 
           <span className="flex px-5 mt-3">
 
